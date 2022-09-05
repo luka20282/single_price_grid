@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&display=swap');
+/* 
+    font-family: 'Karla';
+    font-weight: 400;
+    
+    font-family: 'Karla';
+    font-weight: 700;
+
+*/
+
+body{
+    background-color: #E6EFF6;
+}
+.container{
+    width: 640px;
+    height: 475px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: auto;
+}
+.block1{
+    padding-left: 42px;
+    background-color: white;
+    width: 640px;
+    height: 215px;
+}
+.head{
+    font-family: 'Karla';
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+.term{
+    font-family: 'Karla';
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    font-size: large;
+}
+.description{
+    font-family: 'Karla';
+    font-weight: 400;
+    color: #A9ADB8;
+    max-width: 90%;
+}
+.block2{
+    padding-left: 42px;
+    background-color: #2BB3B1;
+    height: 260px;
+    width: 278px;
+    position: relative;
+}
+.subscribtion_length{
+    font-family: 'Karla';
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    font-size: large;
+    padding-top: 10%;
+}
+.price{
+    font-family: 'Karla';
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+    font-size: xx-large;
+    font-weight: bold;
+    display: inline-block;
+}
+.per_month{
+    color: #73DBDC;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Karla';
+    font-weight: 400;
+    position: relative;
+    bottom: 2%;
+    left: 2%;
+}
+.offer{
+    font-family: 'Karla';
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+    position: relative;
+    top: 4%;
+}
+.sign_up{
+    position: absolute;
+    bottom: 15%;
+    cursor: pointer;
+    width: 75%;
+    height: 19.2%;
+    background-color: #BFDF32;
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-weight: 700;
+    border: none;
+    color: hsl(204, 43%, 93%);
+    -webkit-box-shadow: 9px 10px 25px -13px rgba(0,0,0,0.71);
+    -moz-box-shadow: 9px 10px 25px -13px rgba(0,0,0,0.71);
+    box-shadow: 9px 10px 25px -13px rgba(0,0,0,0.71);
+}
+.block3{
+    padding-left: 42px;
+    background-color: #4ABEBD;
+    height: 260px;
+    width: 278px;
+}
+.why_us{
+    font-family: 'Karla';
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    padding-top: 10%;
+    margin-top: 15px;
+}
+.desc{
+    font-family: 'Karla';
+    font-weight: 400;
+    max-width: 85%;
+    color: hsl(204, 43%, 93%);
+}
+@media only screen and (max-width:700px){
+    .container{
+        width: 315px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border-radius: 10px;
+        overflow: auto;
+    }
+    .block1{
+        width: calc(315px - 42px);
+        height: fit-content;
+    }
+    .head{
+        margin-top: 21px;
+        font-size: 26px;
+    }
+    .description{
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .term{
+        width: 85%;
+    }
+    .block2{
+        width: calc(315px - 42px);
+    }
+    .block3{
+        width: calc(315px - 42px);
+    }
+}
