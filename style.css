@@ -20,6 +20,7 @@ body{
     flex-wrap: wrap;
     border-radius: 10px;
     overflow: auto;
+    margin-top: 8%;
 }
 .block1{
     padding-left: 42px;
